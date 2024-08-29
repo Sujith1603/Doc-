@@ -1,0 +1,31 @@
+<div class="appointments-container">
+  <h2>My Appointments</h2>
+
+  <div *ngIf="availableAppointments.length > 0" class="appointment-section">
+    <h3>Available Healers</h3>
+    <ul>
+      <li *ngFor="let appointment of availableAppointments">
+        <div class="appointments-info">
+          <span>{{ appointment.healthcareProfessional }}</span>
+          <button class="btn btn-primary"  [routerLink]="'/doctorprofile/' + appointment.id">Profile</button>
+          <div class="button-container">
+            <button
+              class="btn btn-success"
+              *ngIf="appointment.connection === 'available'; else  notifyme"
+            >
+              Connect
+            </button>
+          </div>
+          <!-- <div
+            [ngStyle]="{
+              color: appointment.connection === 'available' ? 'Green' : 'Red'
+            }"
+          >{{ appointment.time }}</div> -->
+          <ng-template #notifyme>
+            <button class="btn btn-danger">Notify me</button>
+          </ng-template>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>

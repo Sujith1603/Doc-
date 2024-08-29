@@ -1,0 +1,83 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    max-height: 600px;
+    color: #1a1a1a;
+    
+  }
+  
+  .login-box {
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 12px rgba(145, 148, 231, 0.595);
+    background-color:#f5e3e6c3;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+    margin-left: 10px;
+    color: #1a1a1a;
+  }
+  
+  
+  
+  input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 14px;
+    margin-top: 5px;
+    margin-left: 20px;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  h1{
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .signup-message {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  .signup-message a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .signup-message a:hover {
+    text-decoration: underline;
+  }
+  .dark-mode .login-container {
+    background-color: #1a1a1a; /* Set your dark mode background color */
+}
+
+/* Light mode styles */
+.light-mode .login-container {
+    background-color: #ffffff; /* Set your light mode background color */
+}

@@ -1,0 +1,44 @@
+
+.homepage-container {
+    text-align: center;
+    padding: 50px;
+    transition: background-color 0.3s, color 0.1s;
+    margin-top: 10px;
+   
+  }
+  
+  h1 {
+    color: #007BFF;
+  }
+  
+  p {
+    font-size: 18px;
+    
+    margin-bottom: 20px;
+    
+  }
+  .pic img{
+    margin-top: -21px;
+    height: 390px;
+  }
+
+  
+  .cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007BFF;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  .dark-mode section {
+    background-color: #1a1a1a; /* Set your dark mode background color */
+    color: #ffffff; 
+}
+
+/* Light mode styles */
+.light-mode section {
+    background-color: #ffffff; /* Set your light mode background color */
+    color: #333;
+}

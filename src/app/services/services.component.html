@@ -1,0 +1,13 @@
+<div>
+<div class="services-container">
+    <h2>Our Services</h2>
+  
+    <div class="service-card" *ngFor="let service of servicesList">
+      <img src="\assets\m3.png" alt="{{ service.name }} Icon" />
+      <h3>{{ service.name }}</h3>
+      <p>{{ service.description }}</p>
+      <button routerLink="/appointments" class="cta-button">Available Healer</button>
+
+    </div>
+  </div>
+</div>

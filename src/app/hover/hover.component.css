@@ -1,0 +1,17 @@
+/* hover.component.css */
+button {
+    background-color: #4CAF50; /* Green background color */
+    color: white; /* White text color */
+    padding: 10px 20px; /* Padding for better appearance */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button.hovered {
+    background-color: #45a049; /* Darker green background color on hover */
+  }
+  

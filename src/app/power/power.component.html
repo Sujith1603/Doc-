@@ -1,0 +1,11 @@
+<body>
+    <div class="power">
+        <a routerLink="/power">
+            <img src="\assets\power.png" alt="gsfs" height="39px" width="39px">
+        </a>
+        <div ngClass="showOptions" class="options">
+            <span (click)="resetPassword()" routerLink="/resetPassword">Reset Password</span>
+            <span (click)="logout()" routerLink="/login">Logout</span>
+        </div>
+    </div>
+</body>

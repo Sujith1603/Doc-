@@ -1,0 +1,39 @@
+
+<div  class="doctor-profile">
+
+    <div class="profile-header">
+      <h1>{{ doctor.name }}</h1>
+      <p>{{ doctor.specialization }}</p>
+      <div class="img">      <img src={{doctor.profilePicture}} alt="" height="320px" />
+      </div>
+
+    </div>
+    <div class="profile-details">
+      <div class="section">
+        <h2>Contact Information</h2>
+        <p>Email: {{ doctor.email }}</p>
+        <p>Phone: {{ doctor.phone }}</p>
+      </div>
+  
+      <div class="section">
+        <h2>Education</h2>
+        <ul>
+          <li *ngFor="let education of doctor.education">{{ education }}</li>
+        </ul>
+      </div>
+  
+      <div class="section">
+        <h2>Experience</h2>
+        <ul>
+          <li *ngFor="let experience of doctor.experience">{{ experience }}</li>
+        </ul>
+      </div>
+  
+      <div class="section">
+        <h2>Professional Memberships</h2>
+        <ul>
+          <li *ngFor="let membership of doctor.memberships">{{ membership }}</li>
+        </ul>
+      </div>
+    </div>
+  </div>

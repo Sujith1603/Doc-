@@ -1,0 +1,28 @@
+.services-container {
+    max-width: 800px;
+    background-color: #f5e3e6c3;
+    margin: auto;
+    padding: 20px;
+    color: black;
+    margin-top: 35px;
+  }
+  
+  .service-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px 0;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .service-card img {
+    max-width: 80px;
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    margin-left: 325px;
+    color: #007BFF;
+  }
+  

@@ -1,0 +1,35 @@
+.power {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    margin-left: 0px;
+    padding-top: 3px; 
+    background-color:  #87ddf7;
+    padding-left: 0px;
+}
+
+.options {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+    flex-direction: column;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.power:hover .options {
+    display: flex;
+    border: 3px;
+}
+
+.options span {
+    padding: 8px;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.options span:hover {
+    background-color: #e0e0e0;
+}
